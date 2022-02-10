@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html> 
+<html>
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -10,12 +11,19 @@
 
     <h1>ic-07 - Intro to JavaScript</h1>
 
-    <button type="button">Button 1</button>
+    <button type="button" onclick="button1Clicked()">Button 1</button>
 
     <div id="random_num">
         When Button 1 is clicked, a random number should appear here. 
     </div>
 
+    <button type="button" onclick="button2Clicked()">Button 2</button>
+    
+    <svg id="my_svg" width="50%" length="auto" viewBox="0 0 50 50">
+        <circle id="my_circ" cx="25" cy="25" r="25" style="fill: blue;"/>
+    </svg>
+
+<script src="main.js"></script>
 </body>
 
 </html>
